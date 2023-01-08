@@ -1,0 +1,24 @@
+{% extends 'frame_article.html' %}
+{% load static %}
+
+{% block card_body %}
+<div class="text-center mb-8">
+    <h3 class="fs-2hx text-dark">こんにちは</h3>
+</div>
+<div class="fs-5 fw-semibold">
+    <p class="text-hover-gray-600">
+        某は都立大で数学を操り，無名なピアニストにして，ゲームを極めし，美味しい料理を食べまくった者なり．
+    </p>
+    <div class="text-end mb-8">
+        <p class="text-hover-gray-600">
+            鳳凰院 そら<br>
+            2023年1月1日
+        </p>
+    </div>
+</div>
+
+<audio controls>
+    <source src="{% static 'hellow_world/sora/冬の街路樹 Sora H.flac' %}" type="audio/flac">
+    Your browser does not support the audio element.
+</audio>
+{% endblock %}
