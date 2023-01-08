@@ -1,0 +1,24 @@
+{% extends 'frame_article.html' %}
+{% load static %}
+
+{% block card_body %}
+<div class="text-center mb-8">
+    <h3 class="fs-2hx text-dark">hello</h3>
+</div>
+<div class="fs-5 fw-semibold">
+    <p class="text-hover-gray-600">
+        哲学大好き
+    </p>
+    <div class="text-end mb-8">
+        <p class="text-hover-gray-600">
+            木須 Kisu<br>
+            1/8/2023
+        </p>
+    </div>
+</div>
+
+<audio controls>
+    <source src="{% static 'hello_world/sora/冬の街路樹 Sora H.flac' %}" type="audio/flac">
+    Your browser does not support the audio element.
+</audio>
+{% endblock %}
