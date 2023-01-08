@@ -1,0 +1,24 @@
+{% extends 'frame_article.html' %}
+{% load static %} 
+
+{% block card_body %}
+<div class="text-center mb-8">
+    <h3 class="fs-2hx text-dark">marshmallow</h3>
+</div>
+<div class="fs-5 fw-semibold">
+    <p class="text-hover-gray-600">
+        GDSC TMU Lead. Translate marshmallow into Japanese, so that you will see my name.
+    </p>
+    <div class="text-end mb-8">
+        <p class="text-hover-gray-600">
+            太田　葵<br>
+            2023年1月8日
+        </p>
+    </div>
+</div>
+
+<audio controls>
+    <source src="{% static 'hello_world/sora/冬の街路樹 Sora H.flac' %}" type="audio/flac">
+    Your browser does not support the audio element.
+</audio>
+{% endblock %}
