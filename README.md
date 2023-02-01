@@ -19,7 +19,7 @@ Windows を利用している方は，Git の代わりに Github Desktop を利�
 
 プロジェクトの主要部は，各 folder によって構成される．．ここでのフォルダー名は後で URL の naming space として使われる．まず１つ folder を新規に作って，先着順で好きな名前をつけよう．自分が作ったフォルダーを自由にいじって良いが，他人のフォルダーを触れないようにしよう．
 
-なお，[`sora/`](https://github.com/gdsc-tmu/tmu_hub_hello_world/tree/main/sora) folder はサンプルとして作られた．これから，`sora/` 内の構造を解説しながら，真似して自分の folder を作るお．
+なお，[`sora/`](https://github.com/gdsc-tmu/tmu_hub_hello_world/tree/main/sora) folder はサンプルとして作られた．これから，`sora/` 内の構造を解説しながら，真似して自分の folder を作るお．ただし，フォルダー名と中身のファイル名は小文字英字`a-z`，数字`0-9`，underscore `_` のみ使え，すうじ
 
 `sora/` 内のファイル・フォルダーはおおよそ次のようになる．
 
